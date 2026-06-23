@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="whid=device-width, initial-scale=1.0">
+    <meta name="author" content="Md.Rakib">
+    <title>Rakib-webdev-code</title>
+    <link rel="icon" href="img/feb.png">
+    <link rel="stylesheet" href="style.css">
+ </head>
+<body>
+    <nav>
+        <div class="logo">My Profile</div>
+        <ul>
+            <li><a href="#home">HOme</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#media">Media</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header id="home">
+        <div class="hero-content">
+            <h1>Front-End Web Developer</h1>
+            <p>I build modern and responsive< websites using  HTML and CSS.</p>
+            <a href="#Contact" class="btn">Let's Get Started</a>
+        </div>
+    </header>
+        <main>
+          <section id="about">
+            <h2>About Me & Education</h2>
+            <p>Iam passionate about becoming a Font -End Developer.Here is a brief summsry of my education</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Exam Name</th>
+                        <th>Board/University</th>
+                        <th>Passing Year</th>
+                        <th>Result</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>SSC</td>
+                        <td>Rajshahi Board</td>
+                        <td>2021</td>
+                        <td>5.00</td>
+                    </tr>
+                    <tr>
+                        <td>HSC</td>
+                        <td>Rajshahi Board</td>
+                        <td>2023</td>
+                        <td>4.50</td>
+                    </tr>
+                </tbody>
+            </table>
+          </section> 
+          <section id="skills">
+            <h2>My Technica Skills</h2>
+            <div class="skill-container">
+                <div class="skill-box">
+                    <h3>core Skills(unordered List)</h3>
+                    <ul>
+                        <li>(Semantic Tags, Forms)</li>
+                        <li>CSS3 (FHTML5 (lexbox, Grid, Animations)</li>
+                        <li>Responsive Web Design</li>
+                    </ul>
+                </div>
+                <div class="skill-box">
+                    <h3>Learning Path (Ordered List)</h3>
+                    <ol>
+                        <li>JavaScript (Basic to Advanced)</li>
+                        <li>React.js (Framework)</li>
+                        <li>Node.js (Back-End)</li>
+                    </ol>
+                </div>
+            </div>
+          </section>
+          <section id="media">
+            <h2>Multimedia & Gallery</h2>
+            <p>Demonstrating the usage of HTML audio and video tags below:</p>
+            
+            <div class="media-container">
+                <!-- Video Tag -->
+                <div class="media-box">
+                    <h3>Sample Video</h3>
+                    <video controls autoplay loop width="100%">
+                        <source src="mp4.mp4">
+                    </video>
+                </div>
+                <div class="media-box">
+                    <h3>Sample Audio</h3>
+                    <audio controls>
+                        <source src="mp4.mp4">
+                    </audio>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+           <h2>Contact & Feedback From </h2> 
+           <form action="#" method="post">
+            <div class="from-group">
+                <label for="name">Your Name</label>
+                <input type="text" placeholder="Enter your name" required>
+            </div>
+            <div class="from-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="emill" name="email" placeholder="Enter your emaill" required>
+            </div>
+            <div class="form-group">
+                <label for="birthdate">Date of Birth:</label>
+                <input type="date" id="birthdate" name="birthdate">
+            </div>
+            <div class="form-group">
+                <label>Gender:</label>
+                    <div class="radio-group">
+                        <input type="radio" id="male" name="gender" value="male"> <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" value="female"> <label for="female">Female</label>
+                    </div>
+            </div>
+            <div class="form-group">
+                <label for="country">Select Country:</label>
+                    <select id="country" name="country">
+                        <option value="bangladesh">Bangladesh</option>
+                        <option value="india">India</option>
+                        <option value="other">Other</option>
+                    </select>
+           </div>
+           <div class="form-group">
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Write your message here..."></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Submit Now</button>
+           </form>
+           </section>
+        </main>
+        <footer>
+            <p>&copy; 2026 Md.Rakib. HTML and CSS Practice Project.</p>
+        </footer>
+</body>
+</html>
