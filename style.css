@@ -34,9 +34,9 @@ nav ul{
     display: flex;
     list-style: none;
 }
-nav,ul, li{
+/* nav,ul, li{
     margin-left: 25px;
-}
+} */
 
 nav, ul, li , a{
     color: #f1f5f9;
